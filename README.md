@@ -29,38 +29,34 @@ Make sure you have the following installed on your machine:
 
 1. Clone the repository:  
    
-sh
+```bash
    git clone https://github.com/rishikumar-simform/trainee_backend.git
    cd trainee_backend
-
+```
 
 2. Install dependencies:  
    
-sh
+```bash
    npm install
-
+```
 
 3. Set up environment variables:  
    Create a .env file in the project root and add your MySQL database credentials:  
    
-env
+```env
    DB_HOST=your_mysql_host
    DB_USER=your_mysql_user
    DB_PASSWORD=your_mysql_password
    DB_NAME=your_database_name
    DB_PORT=your_mysql_port
-
+```
 
 4. Start the server:  
    
-sh
-   node index.js
 
-   or  
-   
-sh
+```bash
    npm start
-
+```
 
    The server will run on http://localhost:5000.
 
@@ -118,6 +114,3 @@ json
 - Add DELETE endpoint to remove books  
 - Implement pagination for large datasets  
 - Improve error handling  
-
-### License  
-This project is open-source. Feel free to contribute.   give me this in text file
