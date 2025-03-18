@@ -104,13 +104,3 @@ json
   "message": "Book updated successfully"
 }
 
-
-### Troubleshooting  
-- Make sure your MySQL server is running  
-- Check that the .env file is correctly configured  
-- Ensure all required Node.js modules are installed  
-
-### Future Improvements  
-- Add DELETE endpoint to remove books  
-- Implement pagination for large datasets  
-- Improve error handling  
