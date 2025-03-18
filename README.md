@@ -2,11 +2,6 @@
 
 This is a simple **Node.js** and **Express.js** backend application that manages books using a **MySQL** database. It provides RESTful API endpoints to create, read, and update books.  
 
-### Features  
-- Connects to a MySQL database using mysql2  
-- Supports CORS for frontend integration  
-- API routes to fetch, add, and update books  
-- Automatically creates the books table if it does not exist  
 
 ## Technologies
 
